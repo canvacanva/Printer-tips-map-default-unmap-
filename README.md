@@ -1,9 +1,9 @@
 # Printer-tips-map-default-unmap
 
-### MAP
+### UNMAP
 powershell.exe Remove-Printer -Name ""\\192.168....\BrotherQL-1100""
 
-### UNMAP
+### MAP
 powershell.exe Add-Printer -ConnectionName ""\\192.168....\BrotherQL-1100""
 
 ### SET DEFAULT
