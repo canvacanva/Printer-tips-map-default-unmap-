@@ -1,12 +1,12 @@
 # Printer-tips-map-default-unmap
 
-###MAP
+### MAP
 powershell.exe Remove-Printer -Name ""\\192.168....\BrotherQL-1100""
 
-###UNMAP
+### UNMAP
 powershell.exe Add-Printer -ConnectionName ""\\192.168....\BrotherQL-1100""
 
-###SET DEFAULT
+### SET DEFAULT
 rundll32 printui.dll,PrintUIEntry /y /n "\\192.168....\BrotherQL-1100"
 
 
